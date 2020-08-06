@@ -1,0 +1,13 @@
+{%  extends "base.html" %}
+
+{% block content %}
+<h2>Here is the list of trips</h2>
+<p>
+    {% for trip in trips %}
+    Source : {{ trip.src }}
+    Destination : {{ trip.dest }}
+    Journey Date : {{ trip.journey_date }}
+    Organizer : {{ trip.organizer }}
+</p>
+{% endfor %}
+{% endblock content %}
