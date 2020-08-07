@@ -3,7 +3,7 @@ A platform to where you can find people heading to the same destination as yours
 Why pay for more when you can find pals with whom you share the ride 
 
 
-##To run the application
+## To run the application
 
 - Clone the respository and then execute the below command while inside the cloned directory\
           ``` source venv/bin/activate ``` 
