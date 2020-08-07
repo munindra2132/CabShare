@@ -5,10 +5,10 @@ Why pay for more when you can find pals with whom you share the ride
 
 ##To run the application
 
-- Clone the respository and then execute the below command while inside the cloned directory
-          > source venv/bin/activate 
+1. Clone the respository and then execute the below command while inside the cloned directory
+          ``` source venv/bin/activate ``` 
 - Then type the below command in terminal to download the correct Django's version to run the applicationn
-          > pip3 install -r requirements.txt 
+         ``` pip3 install -r requirements.txt ``` 
 - After that make migrations and then run the server 
          > python3 manage.py makemigrations 
          > python3 manage.py migrate **
