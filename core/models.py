@@ -31,7 +31,7 @@ class Trip(models.Model):
 
 
 class MyTrips(models.Model):
-    trip = models.ForeignKey(Trip, on_delete=models.CASCADE)
+    pass
 
 
 class MyTrip(models.Model):

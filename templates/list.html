@@ -1,13 +1,28 @@
 {%  extends "base.html" %}
+{% load static %}
+
+
 
 {% block content %}
-<h2>Here is the list of trips</h2>
-<p>
-    {% for trip in trips %}
-    Source : {{ trip.src }}
-    Destination : {{ trip.dest }}
-    Journey Date : {{ trip.journey_date }}
-    Organizer : {{ trip.organizer }}
-</p>
+{% for trip in trips %}
+<div class="movie_card" id="ave">
+    <div class="info_section">
+        <div class="movie_header">
+
+            <h1> Destination : {{ trip.dest }}</h1>
+            <h2>Source : {{ trip.src }}</h2>
+            <h4>Journey Date : {{ trip.journey_date }}</h4>
+        </div>
+        <div class="button offset-6">
+            <Button class="btn btn-success"><a href="#">
+                    <p style="color: antiquewhite;">Confirm Your Trip</p>
+                </a></Button>
+            <Button class=" btn btn-success"><a href="#">
+                    <p style="color: antiquewhite;">Remember the trip</p>
+                </a></Button>
+        </div>
+    </div>
+
+</div>
 {% endfor %}
 {% endblock content %}
