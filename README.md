@@ -12,5 +12,5 @@ Why pay for more when you can find pals with whom you share the ride
 - After that make migrations and then run the server \
        ```  python3 manage.py makemigrations``` \
        ```  python3 manage.py migrate``` \
-       ```  python3 manage.py runserver``` \  
+       ```  python3 manage.py runserver```  
 - The Django server runs on your system to see the application go to `http://127.0.0.1:8000` 
