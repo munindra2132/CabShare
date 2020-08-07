@@ -9,8 +9,8 @@ Why pay for more when you can find pals with whom you share the ride
           ``` source venv/bin/activate ``` 
 - Then type the below command in terminal to download the correct Django's version to run the application\
          ``` pip3 install -r requirements.txt ``` 
-- After that make migrations and then run the server 
-       ```  python3 manage.py makemigrations```\
-       ```  python3 manage.py migrate```\ 
-       ```  python3 manage.py runserver```\  
+- After that make migrations and then run the server \
+       ```  python3 manage.py makemigrations``` \
+       ```  python3 manage.py migrate``` \
+       ```  python3 manage.py runserver``` \  
 - The Django server runs on your system to see the application go to `http://127.0.0.1:8000` 
