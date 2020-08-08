@@ -4,7 +4,7 @@
 
 
 {% block content %}
-{% for trip in trips %}
+{% for trip in object_list %}
 <div class="movie_card" id="ave">
     <div class="info_section">
         <div class="movie_header">
@@ -17,8 +17,8 @@
             <Button class="btn btn-success"><a href="#">
                     <p style="color: antiquewhite;">Confirm Your Trip</p>
                 </a></Button>
-            <Button class=" btn btn-success"><a href="#">
-                    <p style="color: antiquewhite;">Remember the trip</p>
+            <Button class=" btn btn-success"><a href="{{ trip.get_absolute_url }}">
+                    <p style="color: antiquewhite;">View </p>
                 </a></Button>
         </div>
     </div>

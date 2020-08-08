@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1> Source : {{ object.src }} </h1>
+<h1> Destination : {{ object.dest }} </h1>
+<h1> Organizer : {{ object.organizer }} </h1>
+
+<Button class="btn btn-success"><a href="#">
+        <p style="color: antiquewhite;">Confirm Your Trip</p>
+    </a></Button>
+{% endblock content%}
